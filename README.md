@@ -47,3 +47,8 @@ UPDATE your_table SET column_name = new_value WHERE condition;
 DELETE FROM your_table WHERE condition;
 ```
 
+## Contributing
+Contributions are welcome! Fork the repository, create a new branch, make your changes, and submit a pull request. Please follow the contribution guidelines.
+
+## Contact
+For questions or feedback, contact us at niharikakurella@gmail.com.

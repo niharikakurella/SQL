@@ -21,7 +21,6 @@ SELECT * FROM your_table WHERE condition;
 Calculate the average, sum, or count of a column:
 
 ```sql
-Copy code
 SELECT AVG(column_name) AS average_value FROM your_table;
 SELECT SUM(column_name) AS total_value FROM your_table;
 SELECT COUNT(*) AS record_count FROM your_table;
@@ -30,7 +29,6 @@ SELECT COUNT(*) AS record_count FROM your_table;
 Combine data from two or more tables:
 
 ```sql
-Copy code
 SELECT t1.column_name, t2.column_name
 FROM table1 t1
 JOIN table2 t2 ON t1.common_column = t2.common_column;
@@ -38,17 +36,14 @@ JOIN table2 t2 ON t1.common_column = t2.common_column;
 ## 5. Insert records into a table:
 
 ```sql
-Copy code
 INSERT INTO your_table (column1, column2, column3) VALUES (value1, value2, value3);
 ```
 ## 6. Update records:
 ```sql
-Copy code
 UPDATE your_table SET column_name = new_value WHERE condition;
 ```
 ## 7. Delete records:
 ```sql
-Copy code
 DELETE FROM your_table WHERE condition;
 ```
 
